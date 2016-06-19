@@ -7,22 +7,22 @@ let bodyParser = getBodyParser();
 
 router
 	.get( '/', ( req, res ) => {
-		pets.get( ( err, pets ) => {
+		pets.getAll( ( err, pets ) => {
 			if ( err ) res.status( 500 ).send( err );
 			else res.send( pets );
-		})
+		});
 	})
 	.get( '/:id', ( req, res ) => {
-		pets.get( req.params.id, ( err, pets ) => {
+		pets.get( req.params.id, ( err, pet ) => {
 			if ( err ) res.status( 500 ).send( err );
 			else res.send( pet );
-		})
+		});
 	})
 	.post( '/', bodyParser, (req, res) => {
-		pets.add( req.body (err, pet) => {
+		pets.add( req.body, (err, pet) => {
 			if ( err ) res.status( 500 ).send(err);
 			else res.send( pet );
-		})
+		});
 	})
 
 module.exports = router;
