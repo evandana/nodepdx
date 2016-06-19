@@ -32,3 +32,22 @@ polled room, most people don't know promises/js much
 
 #Destructuring
 ({directory}) => getSomething( arg1 )
+
+
+#Control Flow
+Interesting, that we're trying to write sequential code with promises
+
+try `async` and `await` on [babel site](https://babeljs.io/repl/)
+
+#Promise Libraries
+
+Why use something else (or not)?
+
+1. Bluebird will optimize *event loop* for efficiency and timing (setTimeout actually takes 5ms, when using other calls could be more immediate)
+2. Native promise method will be faster than library wrapper, but may not be optimized
+
+`setImmediate()` puts it in the front of the event queue
+
+`process.nextTick()` puts it at the end of the current operation (before `setImmediate()`)
+
+You can set the promise library

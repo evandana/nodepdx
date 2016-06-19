@@ -45,3 +45,4 @@ readFile( 'foo.txt' )
 	.then( result => {
 		logResult(result);
 	})
+
