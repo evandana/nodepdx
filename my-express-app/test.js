@@ -1,23 +1,15 @@
 const app = require('express')();
 const getBodyParser = require('./module-body-parser');
 const petsRouter = require( './pets-router');
+const getCheckAuth = require('./check-auth')
 
 let bodyParser = getBodyParser();
+let checkAuth = getCheckAuth('sekrit');
 
-app.get('/', (req, res) => {
-	res.send('hello world')
-});
+// app.get('/', (req, res) => {
+// 	res.send('hello world')
+// });
 
-
-function checkAuth( req, res, next) {
-	let token = req.get('Auth');
-
-	if (token && token === 'sekrit' ) {
-		next();
-	} else {
-		res.status(400).send('not authorized');
-	}
-}
 
 
 // app.get('/', (req, res) => {
@@ -62,8 +54,17 @@ app.post( '/private', checkAuth, bodyParser, (req, res, next) => {
 
 
 // app.use is a "mounting path"
-app.use( '/api/pets', petsRouter );
+app.use( '/api/pets', checkAuth, petsRouter );
 	
+
+app.use( ( err, req, res, next ) => {
+
+	console.log('apple')
+
+	const code = err.code ? err.code : 500;
+	const error = err.error ? err.error : err || 'Internal error';
+	res.status(code).send( {error} );
+})
 
 // app.use( '/', ( req, res, next ) => {
 // 	res.send('apple')
