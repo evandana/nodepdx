@@ -1,9 +1,15 @@
+#Official Links
+
 [session schedule](http://lanyrd.com/2016/nodepdx/#sessions)
 
+#Links to My Notes Per Session
 
 [Workshop: Getting Beyond "app.get()": ExpressJS Middleware Explained and Explored](./my-express-app)
 
 [Workshop: Taming Asynchronous JavaScript with ES2015 Promises and Fat Arrows](./promises-and-fat-arrows)
+
+
+#No Notes Yet
 
 [Welcome Reception @ Bossanova Ballroom]()
 
