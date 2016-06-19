@@ -1,5 +1,6 @@
 const app = require('express')();
 const getBodyParser = require('./module-body-parser');
+const petsRouter = require( './pets-router');
 
 let bodyParser = getBodyParser();
 
@@ -59,6 +60,10 @@ app.post( '/private', checkAuth, bodyParser, (req, res, next) => {
 	res.send( req.body );
 });
 
+
+// app.use is a "mounting path"
+app.use( '/api/pets', petsRouter );
+	
 
 // app.use( '/', ( req, res, next ) => {
 // 	res.send('apple')
