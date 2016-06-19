@@ -1,6 +1,6 @@
 const fs = require( 'fs' );
 
-function readMyFile( fileName ) {
+function readFile( fileName ) {
 		
 		const promise = new Promise( ( resolve, reject ) => {
 			fs.readFile( fileName, 'utf-8', ( err, text ) => {
@@ -12,23 +12,29 @@ function readMyFile( fileName ) {
 		return promise;
 };
 
-const promise1 = readMyFile( 'foo.txt' );
-
 let n = 0;
 
-function getPromiseCount() {
-	return 'promise' + n++;
+function logResult( result ) {
+	console.log('promise ' + n++ + ': ' + result);
 }
 
-readMyFile( 'foo.txt' )
+readFile( 'foo.txt' )
 	.then( text => {
-		console.log( getPromiseCount(), text );
-		return text.toUpperCase();
+		logResult(text);
+		return readFile( text.trim() );
 	})
 	.then( result => {
-		console.log( getPromiseCount(), result );
-		return result.toLowerCase()
+		logResult(result);
+		return result.toUpperCase();
+	})
+	.then( text => {
+		logResult(text);
+		return text.split('').reverse().join('');
 	})
 	.then( result => {
-		console.log( getPromiseCount(), result );
+		logResult(result);
+		return result;
+	})
+	.catch( err => {
+		console.log('err', err);
 	})
