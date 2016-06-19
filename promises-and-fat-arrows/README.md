@@ -28,5 +28,7 @@ polled room, most people don't know promises/js much
     
     > NOT good for promises
 
-# Event Loop
+#Event Loop
 
+#Destructuring
+({directory}) => getSomething( arg1 )

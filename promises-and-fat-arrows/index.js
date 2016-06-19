@@ -12,10 +12,13 @@ function readFile( fileName ) {
 		return promise;
 };
 
-let n = 0;
+let n = 1;
 
 function logResult( result ) {
-	console.log('promise ' + n++ + ': ' + result);
+	console.log('promise chain-' + n++ + ': ' + result);
+}
+function logErr( result ) {
+	console.warn('err chain-' + n++ + ': ' + result);
 }
 
 readFile( 'foo.txt' )
@@ -33,8 +36,12 @@ readFile( 'foo.txt' )
 	})
 	.then( result => {
 		logResult(result);
-		return result;
+		throw 'bwah ha ha';
 	})
 	.catch( err => {
-		console.log('err', err);
+		logErr(err);
+		return 'erreh response';
+	})
+	.then( result => {
+		logResult(result);
 	})
