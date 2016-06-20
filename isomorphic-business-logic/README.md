@@ -1,4 +1,4 @@
-acquired by home depot
+example based on Home Depot app
 
 #What is Isomorphic JS?
 
@@ -28,3 +28,14 @@ Client request 1: show me all your grills
 
 Client request 2: show me all the grills that could arrive by friday
 * more complicated logic, *business* logic
+
+Detriments to duplicating business logic across FE and BE
+* Decimal rounding errors cause value discrepancies
+
+Solution options
+* 
+
+Tech
+* ES2015
+* NPM
+* Webpack
