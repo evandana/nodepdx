@@ -22,4 +22,17 @@ import { Component } from '@angular/core'
 
 #Log Decorator Demo
 
+Live-writing a custom decorator
+* great [documentation on Stack Overflow](http://stackoverflow.com/questions/29775830/how-to-implement-a-typescript-decorator) for creating TypeScript custom decorator
+* [decorator pattern](http://www.dofactory.com/javascript/decorator-design-pattern)
+
+#Useful Decorators
+* @after(3) // 
+* @debounce(1000) // debounce the target
+* @connectToStores([] ... ) // React for store setup
+
+#Word of Caution
+* Not fully developed
+    * Probably not for enterprise level apps
+    * Great for small, experiments (for now)
 

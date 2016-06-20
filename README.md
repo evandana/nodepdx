@@ -8,6 +8,7 @@
 * Web dev is moving towards *-cli driven code
     * Use where possible (Angular2, etc...)
 * Damnit, Evan, start using Emmet in Sublime
+* Use TypeScript
 
 #Non-session
 
