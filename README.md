@@ -40,11 +40,11 @@
 
 [Modern Javascript Frameworks - Introduction to Ember.JS and Ember-CLI](./modern-js-frameworks)
 
+[MMOWAM: Build Server-less Games with a DSN]()
+
 #No Notes Yet
 
 [The SAM Pattern: a distributed system view of Front-End architectures by Jean-Jacques Dubray]() - should research it
-
-[MMOWAM: Build Server-less Games with a DSN]()
 
 [Demystifying TypeScript Decorators]()
 
