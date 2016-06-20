@@ -2,12 +2,22 @@
 
 [session schedule](http://lanyrd.com/2016/nodepdx/#sessions)
 
+#Major Take-aways
+
+* Use [VisualStudio Code](https://code.visualstudio.com/docs/c?utm_expid=101350005-20.jAsCkEFcTeqvtdr0STCN9g.2&start=true)
+* Web dev is moving towards *-cli driven code
+    * Use where possible (Angular2, etc...)
+* Damnit, Evan, start using Emmet in Sublime
+
 #Non-session
 
 ###Tools
-1. [Integrated Node Debugging](https://code.visualstudio.com/docs/c?utm_expid=101350005-20.jAsCkEFcTeqvtdr0STCN9g.2&start=true)
-    1. Quick MD preview in app
+1. [VisualStudio Code](https://code.visualstudio.com/docs/c?utm_expid=101350005-20.jAsCkEFcTeqvtdr0STCN9g.2&start=true)
+    1. \+ Quick MD preview in app
+    1. \+ Integrated Node Debugging
+    1. \- No tabs :(
 1. http://www.ractivejs.org/
+1. Console.table
 
 
 #Links to My Notes Per Session
@@ -28,12 +38,11 @@
 
 [Broken Promises in Open Source](./open-source-broken-promises)
 
+[Modern Javascript Frameworks - Introduction to Ember.JS and Ember-CLI](./modern-js-frameworks)
 
 #No Notes Yet
 
 [The SAM Pattern: a distributed system view of Front-End architectures by Jean-Jacques Dubray]() - should research it
-
-[Modern Javascript Frameworks - Introduction to Ember.JS and Ember-CLI]()
 
 [MMOWAM: Build Server-less Games with a DSN]()
 
