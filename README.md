@@ -4,6 +4,9 @@
 
 #Non-session
 
+###Tools
+1. [Integrated Node Debugging](https://code.visualstudio.com/docs/c?utm_expid=101350005-20.jAsCkEFcTeqvtdr0STCN9g.2&start=true)
+
 
 #Links to My Notes Per Session
 
@@ -21,18 +24,12 @@
 
 [Ops for Devs](./dev-ops-node)
 
+[Broken Promises in Open Source](./open-source-broken-promises)
+
 
 #No Notes Yet
 
-[Lunch - Food Carts]()
-
-[Lightning Talks - Day 1]()
-
-[The House Is Not On Fire: Building a home automation robot with Arduino, Raspberry Pi and Node.js]()
-
-[The SAM Pattern: a distributed system view of Front-End architectures by Jean-Jacques Dubray]()
-
-[Broken Promises in Open Source]()
+[The SAM Pattern: a distributed system view of Front-End architectures by Jean-Jacques Dubray]() - should research it
 
 [Modern Javascript Frameworks - Introduction to Ember.JS and Ember-CLI]()
 
