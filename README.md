@@ -6,6 +6,8 @@
 
 ###Tools
 1. [Integrated Node Debugging](https://code.visualstudio.com/docs/c?utm_expid=101350005-20.jAsCkEFcTeqvtdr0STCN9g.2&start=true)
+    1. Quick MD preview in app
+1. http://www.ractivejs.org/
 
 
 #Links to My Notes Per Session
