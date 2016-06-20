@@ -2,28 +2,27 @@
 
 [session schedule](http://lanyrd.com/2016/nodepdx/#sessions)
 
+#Non-session
+
+
 #Links to My Notes Per Session
 
 [Workshop: Getting Beyond "app.get()": ExpressJS Middleware Explained and Explored](./my-express-app)
 
 [Workshop: Taming Asynchronous JavaScript with ES2015 Promises and Fat Arrows](./promises-and-fat-arrows)
 
+[Intro - Hardware Hacking Space](./iot)
+
+[A Foolish Quest: Creating Knitting Patterns Using JavaScript](./knitting)
+
+[Isomorphic Business Logic (Or How to convince even the most die-hard C#/Java/Rails-on-the-Backend boss that you need to run a no](./isomorphic-business-logic)
+
+[From Software to Hardware: How Do I Track My Cat with JavaScript](./kitty-cam)
+
+[Ops for Devs](./dev-ops-node)
+
 
 #No Notes Yet
-
-[Welcome Reception @ Bossanova Ballroom]()
-
-[Welcome to NodePDX 2016]()
-
-[Intro - Hardware Hacking Space]()
-
-[A Foolish Quest: Creating Knitting Patterns Using JavaScript]()
-
-[Isomorphic Business Logic (Or How to convince even the most die-hard C#/Java/Rails-on-the-Backend boss that you need to run a no]()
-
-[From Software to Hardware: How Do I Track My Cat with JavaScript]()
-
-[Ops for Devs]()
 
 [Lunch - Food Carts]()
 
