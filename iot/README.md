@@ -10,3 +10,6 @@ sign up on [](build.particle.io)
 
 
 so, with [this tutorial](https://docs.particle.io/guide/getting-started/examples/photon/#intro-3), i was able to [log](https://dashboard.particle.io/user/logs) to the web whether or not the photo-sensor was receiving light. cool!
+
+
+[log](https://dashboard.particle.io/user/logs)
