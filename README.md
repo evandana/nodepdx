@@ -43,31 +43,26 @@
 
 [MMOWAM: Build Server-less Games with a DSN]()
 
+[Demystifying TypeScript Decorators](./demystifying-decorators)
+
+[A P2P Calendar](./peer-to-peer-calendar)
+
+[WebSockets Bring Light at the End of the Tunnel](./websockets)
+
+[RRR - React, RethinkDB, Raspberry Pi](./rethink-db)
+
+[Code First Docs: How we Threw Out The Book &amp; Put Code First With Twilio Documentation](./docs)
+
+[Lightning Talks - Day 2](./lightning-talks)
+
+
 #No Notes Yet
 
 [The SAM Pattern: a distributed system view of Front-End architectures by Jean-Jacques Dubray]() - should research it
 
-[Demystifying TypeScript Decorators]()
-
-[Ping Pong Party @ Pips n' Bounce]()
-
-[Intro - Day 2]()
-
-[Intro - Hardware Hacking Space (Day 2)]()
-
-[A P2P Calendar]()
-
-[WebSockets Bring Light at the End of the Tunnel]()
-
-[RRR - React, RethinkDB, Raspberry Pi]()
-
-[Code First Docs: How we Threw Out The Book &amp; Put Code First With Twilio Documentation]()
-
 [Lunch - Food Carts]()
 
-[Lightning Talks - Day 2]()
-
-[Node.js Patterns: From Callbacks to Observer]()
+[Node.js Patterns: From Callbacks to Observer](./node-js-patterns)
 
 [Get JavaScript Running on a $2 WiFi-Enabled Device]()
 

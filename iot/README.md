@@ -13,3 +13,10 @@ so, with [this tutorial](https://docs.particle.io/guide/getting-started/examples
 
 
 [log](https://dashboard.particle.io/user/logs)
+
+
+#this works!
+[tutorial for distance sensor](https://github.com/toSvenson/intro-workshop/wiki/Photon-Distance-Sensor)
+
+`particle serial monitor`
+`particle monitor 360042000547353138383138`
