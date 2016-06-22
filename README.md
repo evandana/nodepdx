@@ -35,14 +35,14 @@
 * North West
     * Powell's books - huge, huge bookstore
     * Ground Kontrol Classic Arcade - dark, quarter-hungry bar-cade
-* South East - (gang area*)
+* South East
     * Pips & Bounce - ping-pong bar
     * Apex Brewing - belgian beer garden with huge selection on tap
     * The Beer Mongers - beer shop with bottle selection (cheap) and can drink there
     * Hair of the Dog Brewing - famously conditioned bottles and good brews on tap; adjacent to informal car show
 * Many homeless around and on W.Burnside St (divides N/S)
 
-\* As quoted by someone on the street
+
 
 
 #Links to My Notes Per Session
