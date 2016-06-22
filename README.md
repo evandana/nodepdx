@@ -9,6 +9,7 @@
     * Use where possible (Angular2, etc...)
 * Damnit, Evan, start using Emmet in Sublime
 * Use TypeScript
+* patterns: [Node.js Patterns: From Callbacks to Observer](./node-js-patterns)
 
 #Non-session
 
@@ -55,21 +56,13 @@
 
 [Lightning Talks - Day 2](./lightning-talks)
 
+[Node.js Patterns: From Callbacks to Observer](./node-js-patterns)
+
+[How to Electron](./electron)
+
 
 #No Notes Yet
 
 [The SAM Pattern: a distributed system view of Front-End architectures by Jean-Jacques Dubray]() - should research it
-
-[Lunch - Food Carts]()
-
-[Node.js Patterns: From Callbacks to Observer](./node-js-patterns)
-
-[Get JavaScript Running on a $2 WiFi-Enabled Device]()
-
-[The Web Platform is the Universal Instrument]()
-
-[I Play the JavaScript]()
-
-[How to Electron]()
 
 [How to Build a Bike Shed]()
