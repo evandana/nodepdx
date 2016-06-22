@@ -22,6 +22,29 @@
 1. Console.table
 
 
+#Exploring Portland
+* West - forest and fauna
+    * Japanese Garden - only open 9am onward
+    * International Rose Test Garden - open 5am-10pm
+    * [Running trails](https://www.google.com/maps/place/Portland+Japanese+Garden/@45.5204252,-122.7042249,18z/data=!4m5!3m4!1s0x0:0x9e8cc03627015eed!8m2!3d45.5188052!4d-122.7079746)
+* South West
+    * Voodoo Doughnuts - kitchy doughnut shop with tons of spunky flavors; touristy; good, but not amazing
+    * Stumptown Coffee Roasters - amazing coffee. period.
+    * Pioneer Courthouse Square - concrete plaza often filled with events
+    * Blue Star Donuts - amazing donuts with high quality dough and sophisticated flavors
+* North West
+    * Powell's books - huge, huge bookstore
+    * Ground Kontrol Classic Arcade - dark, quarter-hungry bar-cade
+* South East - (gang area*)
+    * Pips & Bounce - ping-pong bar
+    * Apex Brewing - belgian beer garden with huge selection on tap
+    * The Beer Mongers - beer shop with bottle selection (cheap) and can drink there
+    * Hair of the Dog Brewing - famously conditioned bottles and good brews on tap; adjacent to informal car show
+* Many homeless around and on W.Burnside St (divides N/S)
+
+\* As quoted by someone on the street
+
+
 #Links to My Notes Per Session
 
 [Workshop: Getting Beyond "app.get()": ExpressJS Middleware Explained and Explored](./my-express-app)
@@ -60,9 +83,3 @@
 
 [How to Electron](./electron)
 
-
-#No Notes Yet
-
-[The SAM Pattern: a distributed system view of Front-End architectures by Jean-Jacques Dubray]() - should research it
-
-[How to Build a Bike Shed]()
