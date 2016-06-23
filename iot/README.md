@@ -4,21 +4,32 @@ sign up on [](build.particle.io)
 [](particle.io/start)
 
 
-#app: 'particle-ping'
 
+*prereq*: make sure you have the latest npm and node 
+    
+    npm install -g npm
+    sudo npm cache clean -f
+    sudo npm install -g n
+    sudo n stable
 
-`npm install -g particle-cli`
+*install*: `npm install -g particle-cli`
 
+[full getting started guide](https://docs.particle.io/guide/getting-started/connect/photon/)
+
+#tutorials/examples
 [control led over net](https://docs.particle.io/guide/getting-started/examples/photon/#control-leds-over-the-39-net)
 
 
-so, with [this tutorial](https://docs.particle.io/guide/getting-started/examples/photon/#intro-3), i was able to [log](https://dashboard.particle.io/user/logs) to the web whether or not the photo-sensor was receiving light. cool!
+#getting the distance sensor working
 
+my particle app is called 'distance-ping'
+
+so, with [this tutorial](https://docs.particle.io/guide/getting-started/examples/photon/#intro-3), i was able to [log](https://dashboard.particle.io/user/logs) to the web whether or not the photo-sensor was receiving light. cool!
 
 [log](https://dashboard.particle.io/user/logs)
 
+##this works!
 
-#this works!
 [tutorial for distance sensor](https://github.com/toSvenson/intro-workshop/wiki/Photon-Distance-Sensor)
 
 `particle serial monitor`
